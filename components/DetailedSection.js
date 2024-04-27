@@ -89,7 +89,7 @@ function DetailedSection() {
             ? "text-slate-900 border border-cyan-500 rounded-full border-5"
             : "text-slate-500";
           return (
-            <button onClick={() => handleTabChange(item.id)}>
+            <button onClick={() => handleTabChange(item.id)} key={index}>
               <p
                 className={`mr-3 text-xl py-1 px-2 font-semibold hover:text-slate-700 cursor-pointer ${buttonClasses}`}
               >

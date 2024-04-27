@@ -58,6 +58,7 @@ function AboutSection() {
               <TabButton
                 selectTab={() => handleTabChange(item.id)}
                 active={isActive(item.id)}
+                key={index}
               >
                 {item.title}
               </TabButton>
