@@ -35,7 +35,7 @@ function ApplySection() {
     >
       <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-cyan-500 to to-transparent rounded-full h-80 w-80 blur-lg z-0 absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2 opacity-35" />
       <div className="z-10">
-        <h5 className="font-bold text-4xl my-4">Let's Connect</h5>
+        <h5 className="font-bold text-4xl my-4">Let&apos;s Connect</h5>
         <p className="text-slate-500 text-sm mb-4 max-w-md">
           Hey To Get Our services you can call us via the numbers below or
           Whatsapp us.You can fill the form on the right,We will contact you.

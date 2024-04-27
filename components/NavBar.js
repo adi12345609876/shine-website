@@ -29,7 +29,7 @@ function NavBar() {
             href="/"
             className="flex flex-row gap-2 text-4xl md:text-5xl text-black font-semibold"
           >
-            <Image src={"/logo-icon.png"} width={50} height={50} />
+            <Image src={"/logo-icon.png"} width={50} height={50} alt="logo" />
             SHINE
           </Link>
           <div className="mobile-menu block md:hidden">
