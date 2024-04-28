@@ -11,7 +11,7 @@ function ApplySection() {
     e.preventDefault();
     setLoading(true);
     try {
-      const res = await fetch("http://localhost:3000/api/infoApply", {
+      const res = await fetch(`/api/infoApply`, {
         method: "POST",
         headers: {
           "Content-type": "application/json",
