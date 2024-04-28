@@ -18,7 +18,19 @@ function HeroSection() {
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-500">
               {""} Job {""}
             </span>
-            in Abroad
+            in {""}
+            <br />
+            <span className="flex justify-between w-[17rem] ">
+              Abroad. {"  "}
+              <Image
+                width={40}
+                height={40}
+                quality={100}
+                style={{ objectFit: "contain" }}
+                src={"/images/india-icon.png"}
+                alt="Jobs for Indians"
+              />
+            </span>
           </h1>
           <p class="text-slate-500 text-base sm:text-lg mb-6 lg:text-lg ">
             EXPLORE GLOBAL CAREERS.Find Your Path Abroad! Discover Exciting
