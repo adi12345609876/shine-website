@@ -8,9 +8,13 @@ function ApplySection() {
   const [pnumber, setPnumber] = useState();
   const [loading, setLoading] = useState(false);
   const handleSubmit = async (e) => {
-    e.preventDefault();
     setLoading(true);
+    setEmail();
+    setName();
+    setPnumber();
+    e.preventDefault();
     try {
+      console.log("started posting");
       const res = await fetch(`/api/infoApply`, {
         method: "POST",
         headers: {
@@ -18,6 +22,7 @@ function ApplySection() {
         },
         body: JSON.stringify({ email, name, pnumber }),
       });
+      console.log("ended posting");
       if (res.ok) {
         alert("successfull posted the information");
       } else {
