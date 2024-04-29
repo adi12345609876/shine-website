@@ -45,7 +45,7 @@ function ApplySection() {
           <span className="text-lg font-bold">+91 7299994115</span>
           <br />
           <span className="text-lg">Email:</span>
-          <span className="text-lg font-bold">ramsundar468@gmail.com</span>
+          <span className="text-lg font-bold">getoverseajobs@gmail.com</span>
         </p>
         <div className="socials flex flex-row gap-2">
           <Link target="_blank" href={"https://wa.me/7299994115"}>

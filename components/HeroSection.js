@@ -19,9 +19,8 @@ function HeroSection() {
               {""} Job {""}
             </span>
             in {""}
-            <br />
-            <span className="flex justify-between w-[17rem] ">
-              Abroad. {"  "}
+            <span className="flex justify-between max-w-[10rem]">
+              Abroad.
               <Image
                 width={40}
                 height={40}
